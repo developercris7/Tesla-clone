@@ -1,0 +1,35 @@
+.modelTextSection {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.textHead > p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.textFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.modelsButtonsSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.viewButton,
+.demoButton {
+  border-radius: 3px;
+  padding: 5px 25px;
+}
+.demoButton {
+  background-color: black;
+  color: white;
+}

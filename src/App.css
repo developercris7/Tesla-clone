@@ -16,3 +16,17 @@ button{
   align-items: center;
   gap: 10px;
 }
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+  background-position: center;
+}
+
+.fw{
+  font-weight:500;
+}
+
