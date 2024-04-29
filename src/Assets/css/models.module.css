@@ -27,9 +27,17 @@
 .viewButton,
 .demoButton {
   border-radius: 3px;
-  padding: 5px 25px;
+  padding: 10px 25px;
+  width: 200px;
 }
 .demoButton {
   background-color: black;
   color: white;
+}
+
+@media (width<767px) {
+  .viewButton,
+  .demoButton {
+    width: 150px;
+  }
 }
