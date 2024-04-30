@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import data from "../Assets/db.json";
-import { Link, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import Styles from "../Assets/css/modelview.module.css";
 import { useInView } from "react-intersection-observer";
-import { FaHome } from "react-icons/fa";
 import { DataContext } from "../Context/DataContext";
+import {motion} from 'framer-motion'
 
 const Models = () => {
   const { model } = useParams();
@@ -84,17 +84,27 @@ const Models = () => {
     setModelImages,
     setModelInfo,
     setInteriorImage,
+    setUrlImage
   ]);
 
   useEffect(() => {
     if (modelInView) {
-      setUrlImage(modelImages[0]);
+      setTimeout(()=> {
+        setUrlImage(modelImages[0]);
+      },1000)
     } else if (paintInview) {
-      setUrlImage(modelImages[1]);
+      setTimeout(()=> {
+        setUrlImage(modelImages[1]);
+      },1000)
+      
     } else if (wheelInView) {
-      setUrlImage(modelImages[2]);
+      setTimeout(()=> {
+        setUrlImage(modelImages[2]);
+      },1000)
     } else if (interiorInview) {
-      setUrlImage(interiorImage);
+      setTimeout(()=> {
+        setUrlImage(interiorImage);
+      },1000)
     }
   }, [
     modelInView,
@@ -103,6 +113,7 @@ const Models = () => {
     interiorInview,
     modelImages,
     interiorImage,
+    setUrlImage
   ]);
 
   return (
@@ -111,15 +122,11 @@ const Models = () => {
         <div className={Styles.modelViewContainer}>
           <div className="row w-100 h-100 mx-auto">
             <div className={`${Styles.imageSection} col-lg-8 `}>
-              <img src={urlImage} alt="" className="img-fluid" />
-              <button className={`${Styles.gobackButton}`}>
-                <Link
-                  to="/"
-                  className="nav-link d-flex align-items-center gap-2"
-                >
-                  <FaHome /> <span>Back</span>
-                </Link>
-              </button>
+              <motion.img key={urlImage} src={urlImage} alt="" className="img-fluid" initial={{opacity:0}}
+              animate={{opacity:1}}
+              exit = {{opacity :[1,0]}}
+              transition={{duration:2,ease: "easeInOut"}}
+              />
             </div>
 
             <div
