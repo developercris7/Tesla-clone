@@ -57,6 +57,7 @@ const Models = () => {
   });
 
   useEffect(() => {
+
     const findModel = async () => {
       const info = await data.models.find((item) => item.model === model);
       setModelInfo(info);

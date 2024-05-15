@@ -9,7 +9,7 @@ export const DataProvider = ({ children }) => {
   const [modelImages, setModelImages] = useState("");
   const [interiorImage, setInteriorImage] = useState("");
   const [urlImage, setUrlImage] = useState("");
-  const [paintColor, setPaintColor] = useState("red");
+  const [paintColor, setPaintColor] = useState("blue");
   const [wheelDesign, setWheelDesign] = useState("wheel1");
   const [interiorColor, setInteriorColor] = useState("white");
 

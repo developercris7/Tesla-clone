@@ -2,11 +2,12 @@
   "navbar": {
     "navlinks": [
       {
-        "model": "model s",
-        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png",
-        "speed": "125 mph",
-        "href" : "models"
+        "model": "model y",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png",
+        "speed": "135 mph",
+        "href" : "modely"
       },
+
       {
         "model": "model 3",
         "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3-Performance-LHD.png",
@@ -20,11 +21,12 @@
         "href" : "modelx"
       },
       {
-        "model": "model y",
-        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png",
-        "speed": "135 mph",
-        "href" : "modely"
+        "model": "model s",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png",
+        "speed": "125 mph",
+        "href" : "models"
       }
+    
     ]
   },
   "models": [
@@ -319,6 +321,305 @@
             "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3_/UI/Wheel-Swatch_19-in.png?",
             "type" : "19’’ Nova Wheels",
             "price":"$1,500"
+          }
+        ]
+      }
+    },
+    {
+      "model": "modelx",
+      "name": "Model X",
+      "price": "From $63,990³",
+      "backgroundmobile": "https://digitalassets.tesla.com/tesla-contents/image/upload/h_1700,w_800,c_fit,f_auto,q_auto:best/Homepage-Model-X-Mobile-LHD_001",
+      "backgroundtab": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop.jpg",
+      "background": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop.jpg",
+      "credit": "After Federal Tax Credit & Est. Gas Savings",
+      "creditText": "*Price before incentives is $42,990, excluding taxes and fees. Subject to change.",
+      "creditTextColor": "black",
+      "anchorText": "Learn about est. gas savings",
+      "modelviewassests": {
+        "range": { "num": "335mi", "text": "Range(EPA est.)" },
+        "topspeed": { "num": "149mph", "text": "top speed" },
+        "speedtime": { "num": "3.8sec", "text": "0-60 mph" },
+        "images": [
+          {
+            "name": "wheel1",
+            "imgs": [
+              {
+                "color": "grey",
+                "colorname": "Stealth Grey",
+                "price": "$1000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PN01,$WX00,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PN01,$WX00,$IBE00&view=SIDE&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PN01,$WX00,$IBE00&view=RIMCLOSEUP&model=mx&size=1920&bkba_opt=1&crop=0,0,0,0&"
+                ]
+              },
+              {
+                "color": "red",
+                "colorname": "Ultra red",
+                "price": "$2000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PR01,$WX00,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PR01,$WX00,$IBE00&view=SIDE&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PR01,$WX00,$IBE00&view=RIMCLOSEUP&model=mx&size=1920&bkba_opt=1&crop=0,0,0,0&"
+                ]
+              },
+              {
+                "color": "blue",
+                "colorname": "Deep Blue Metallic",
+                "price": "$1300",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PPSB,$WX00,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PPSB,$WX00,$IBE00&view=SIDE&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PPSB,$WX00,$IBE00&view=RIMCLOSEUP&model=mx&size=1920&bkba_opt=1&crop=0,0,0,0&"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "wheel2",
+            "imgs": [
+              {
+                "color": "grey",
+
+                "colorname": "Stealth Grey",
+                "price": "$1000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PN01,$WX20,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PN01,$WX20,$IBE00&view=SIDE&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PN01,$WX20,$IBE00&view=RIMCLOSEUP&model=mx&size=1920&bkba_opt=1&crop=0,0,0,0&"
+
+                ]
+              },
+              {
+                "color": "red",
+                "colorname": "Ultra red",
+                "price": "$2000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PR01,$WX20,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PR01,$WX20,$IBE00&view=SIDE&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PR01,$WX20,$IBE00&view=RIMCLOSEUP&model=mx&size=1920&bkba_opt=1&crop=0,0,0,0&"
+
+                ]
+              },
+              {
+                "color": "blue",
+                "colorname": "Deep Blue Metallic",
+                "price": "$1000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PPSB,$WX20,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PPSB,$WX20,$IBE00&view=SIDE&model=mx&size=1920&bkba_opt=1&crop=1300,600,300,230&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX18,$PPSB,$WX20,$IBE00&view=RIMCLOSEUP&model=mx&size=1920&bkba_opt=1&crop=0,0,0,0&"
+                ]
+              }
+            ]
+          }
+        ],
+        "interiors": [
+          {
+            "color": "black",
+            "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$INPB0,$PN01,$DV2W&view=STUD_SEAT&model=my&size=1441&bkba_opt=2&crop=0,0,0,0&"
+          },
+          {
+            "color": "white",
+            "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$INPW0,$PN01,$DV2W&view=STUD_SEAT&model=my&size=1441&bkba_opt=2&crop=0,0,0,0&"
+          }
+        ],
+        "paints": [
+          {
+            "color": "grey",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3_/UI/Paint_StealthGrey.png?",
+            "colorname": "Stealth Grey",
+            "price": "$1000"
+          },
+          {
+            "color": "blue",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/Paint_Blue.png?",
+            "colorname": "Deep Blue Metallic",
+            "price": "$1000"
+          },
+          {
+            "color": "red",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/Paint_Red.png?",
+            "colorname": "Ultra red",
+            "price": "$2000"
+          }
+        ],
+        "interiorsColor": [
+          {
+            "color": "black",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/ui_swat_int_in3pb.png?",
+            "colorName": "All Black",
+            "price": "Included"
+          },
+          {
+            "color": "white",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/ui_swat_int_white.png?",
+            "colorName": "Black amd White",
+            "price": "$2000"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "wheel1",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODELX/UI/20Cyberstream.png?",
+            "type" : "20'' Cyberstream Wheels",
+            "price":"Included"
+          },
+          {
+            "name": "wheel2",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODELX/UI/22Turbine.png?",
+            "type" : "22'' Turbine Wheels",
+            "price":"$5,500"
+          }
+        ]
+      }
+    },
+    {
+      "model": "models",
+      "name": "Model S",
+      "price": "From $66,490⁴",
+      "backgroundmobile": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Mobile-LHD-6.22.jpg",
+      "backgroundtab": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg",
+      "background": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg",
+      "credit": "After Est. Gas Savings",
+      "creditText": "*Price before incentives is $42,990, excluding taxes and fees. Subject to change.",
+      "creditTextColor": "black",
+      "anchorText": "Learn about est. gas savings",
+      "modelviewassests": {
+        "range": { "num": "402mi", "text": "Range(EPA est.)" },
+        "topspeed": { "num": "130mph", "text": "top speed" },
+        "speedtime": { "num": "3.1sec", "text": "0-60 mph" },
+        "images": [
+          {
+            "name": "wheel1",
+            "imgs": [
+              {
+                "color": "grey",
+                "colorname": "Stealth Grey",
+                "price": "$1000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=1&crop=1300,500,300,300&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS91,$IBE00&view=SIDE&model=ms&size=1920&bkba_opt=1&crop=1300,450,300,300&",
+"https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS91,$IBE00&view=RIMCLOSEUP&model=ms&size=1920&bkba_opt=1&crop=0,950,160,0&"
+
+                ]
+              },
+              {
+                "color": "white",
+                "colorname": "Pearl White Multi-Coat",
+                "price": "$2000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSW,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=1&crop=1300,500,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSW,$WS91,$IBE00&view=SIDE&model=ms&size=1920&bkba_opt=1&crop=1300,450,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSW,$WS91,$IBE00&view=RIMCLOSEUP&model=ms&size=1920&bkba_opt=1&crop=0,950,160,0&"
+                ]
+              },
+              {
+                "color": "blue",
+                "colorname": "Deep Blue Metallic",
+                "price": "$1300",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSB,$WS91,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=1&crop=1300,500,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSB,$WS91,$IBE00&view=SIDE&model=ms&size=1920&bkba_opt=1&crop=1300,450,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSB,$WS91,$IBE00&view=RIMCLOSEUP&model=ms&size=1920&bkba_opt=1&crop=0,950,160,0&"
+
+                ]
+              }
+            ]
+          },
+          {
+            "name": "wheel2",
+            "imgs": [
+              {
+                "color": "grey",
+                "colorname": "Stealth Grey",
+                "price": "$1000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS11,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=1&crop=1300,500,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS11,$IBE00&view=SIDE&model=ms&size=1920&bkba_opt=1&crop=1300,450,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PN01,$WS11,$IBE00&view=RIMCLOSEUP&model=ms&size=1920&bkba_opt=1&crop=0,950,160,0&"
+                ]
+              },
+              {
+                "color": "white",
+                "colorname": "Pearl White Multi-Coat",
+                "price": "$2000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSW,$WS11,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=1&crop=1300,500,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSW,$WS11,$IBE00&view=SIDE&model=ms&size=1920&bkba_opt=1&crop=1300,450,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSW,$WS11,$IBE00&view=RIMCLOSEUP&model=ms&size=1920&bkba_opt=1&crop=0,950,160,0&"
+                ]
+              },
+              {
+                "color": "blue",
+                "colorname": "Deep Blue Metallic",
+                "price": "$1000",
+                "images": [
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSB,$WS11,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=1&crop=1300,500,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSB,$WS11,$IBE00&view=SIDE&model=ms&size=1920&bkba_opt=1&crop=1300,450,300,300&",
+                  "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS18,$PPSB,$WS11,$IBE00&view=RIMCLOSEUP&model=ms&size=1920&bkba_opt=1&crop=0,950,160,0&"
+                ]
+              }
+            ]
+          }
+        ],
+        "interiors": [
+          {
+            "color": "black",
+            "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$INPB0,$PN01,$DV2W&view=STUD_SEAT&model=my&size=1441&bkba_opt=2&crop=0,0,0,0&"
+          },
+          {
+            "color": "white",
+            "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$INPW0,$PN01,$DV2W&view=STUD_SEAT&model=my&size=1441&bkba_opt=2&crop=0,0,0,0&"
+          }
+        ],
+        "paints": [
+          {
+            "color": "grey",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3_/UI/Paint_StealthGrey.png?",
+            "colorname": "Stealth Grey",
+            "price": "$1000"
+          },
+          {
+            "color": "blue",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/Paint_Blue.png?",
+            "colorname": "Deep Blue Metallic",
+            "price": "$1000"
+          },
+          {
+            "color": "white",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/Paint_White.png?",
+            "colorname": "Pearl White Multi-Coat",
+            "price": "$2000"
+          }
+        ],
+        "interiorsColor": [
+          {
+            "color": "black",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/ui_swat_int_in3pb.png?",
+            "colorName": "All Black",
+            "price": "Included"
+          },
+          {
+            "color": "white",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODEL3/UI/ui_swat_int_white.png?",
+            "colorName": "Black amd White",
+            "price": "$2000"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "wheel1",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODELS/UI/ui_swat_whl_tempest.png?",
+            "type" : "19''Tempest Wheels",
+            "price":"Included"
+          },
+          {
+            "name": "wheel2",
+            "image": "https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/MODELS/UI/21Arachnid.png?",
+            "type" : "21'' Arachnid Wheels",
+            "price":"$4,500"
           }
         ]
       }
