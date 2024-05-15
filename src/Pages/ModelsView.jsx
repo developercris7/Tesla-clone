@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import data from "../Assets/db.json";
-import {useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Styles from "../Assets/css/modelview.module.css";
 import { useInView } from "react-intersection-observer";
 import { DataContext } from "../Context/DataContext";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const Models = () => {
   const { model } = useParams();
@@ -34,7 +34,7 @@ const Models = () => {
     handleTabSwitch,
   } = useContext(DataContext);
 
-  //   Intersection Obeserver References
+  //   Intersection Observer References
   const { ref: modelRef, inView: modelInView } = useInView({
     threshold: 0,
     root: document.getElementById("modelContents"),
@@ -122,10 +122,15 @@ const Models = () => {
         <div className={Styles.modelViewContainer}>
           <div className="row w-100 h-100 mx-auto">
             <div className={`${Styles.imageSection} col-lg-8 `}>
-              <motion.img key={urlImage} src={urlImage} alt="" className="img-fluid" initial={{opacity:0}}
-              animate={{opacity:1}}
-              exit = {{opacity :[1,0]}}
-              transition={{duration:2,ease: "easeInOut"}}
+              <motion.img 
+                key={urlImage} 
+                src={urlImage} 
+                alt="" 
+                className="img-fluid" 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: [1, 0] }}
+                transition={{ duration: 1.5, ease: "easeInOut" }}
               />
             </div>
 
@@ -153,9 +158,9 @@ const Models = () => {
                 </div>
                 <div className={Styles.optionSection}>
                   <div className={Styles.optionsWrapper}>
-                    {options.map((option) => (
+                    {options.map((option, index) => (
                       <p
-                        key={option}
+                        key={index}
                         className={`${Styles.option} ${
                           option === optionTab ? Styles.activeOption : ""
                         } `}
@@ -195,13 +200,14 @@ const Models = () => {
                 </div>
               </div>
 
-              <div className={Styles.featureHead}>Feature Details</div>
+              <div className={Styles.featureHead}> Feature Details</div>
 
               <div className={Styles.paintSection} ref={paintRef}>
                 <h1>Paints</h1>
                 <div className={Styles.paintImagesSection}>
-                  {modelAssets.paints.map((paint) => (
+                  {modelAssets.paints.map((paint, index) => (
                     <div
+                      key={index}
                       className={`${
                         paintColor === paint.color ? Styles.paintImgDiv : ""
                       }`}
@@ -212,10 +218,10 @@ const Models = () => {
                   ))}
                 </div>
 
-                {modelAssets.paints.map((paint) => (
+                {modelAssets.paints.map((paint, index) => (
                   <>
                     {paintColor === paint.color ? (
-                      <div className="d-flex gap-3 align-items-center mt-3">
+                      <div className="d-flex gap-3 align-items-center mt-3" key={index}>
                         <span className={Styles.colorName}>
                           {paint.colorname}
                         </span>{" "}
@@ -231,8 +237,9 @@ const Models = () => {
               <div className={Styles.paintSection} ref={wheelRef}>
                 <h1>Wheels</h1>
                 <div className={Styles.paintImagesSection}>
-                  {modelAssets.wheels.map((wheel) => (
+                  {modelAssets.wheels.map((wheel, index) => (
                     <div
+                      key={index}
                       className={`${
                         wheelDesign === wheel.name ? Styles.paintImgDiv : ""
                       }`}
@@ -242,10 +249,10 @@ const Models = () => {
                     </div>
                   ))}
                 </div>
-                {modelAssets.wheels.map((wheel) => (
+                {modelAssets.wheels.map((wheel, index) => (
                   <>
                     {wheel.name === wheelDesign ? (
-                      <div className="text-center">
+                      <div className="text-center" key={index}>
                         <div className="d-flex align-items-center gap-3 mt-3">
                           <span className={Styles.colorName}>{wheel.type}</span>
                           <span className={Styles.colorPrice}>
@@ -268,8 +275,9 @@ const Models = () => {
                 <h1>Interior</h1>
 
                 <div className={Styles.paintImagesSection}>
-                  {modelAssets.interiorsColor.map((item) => (
+                  {modelAssets.interiorsColor.map((item, index) => (
                     <div
+                      key={index}
                       className={`${
                         interiorColor === item.color ? Styles.paintImgDiv : ""
                       }`}
@@ -280,10 +288,10 @@ const Models = () => {
                   ))}
                 </div>
 
-                {modelAssets.interiorsColor.map((item) => (
+                {modelAssets.interiorsColor.map((item, index) => (
                   <>
                     {interiorColor === item.color ? (
-                      <div className="d-flex gap-3 align-items-center mt-3">
+                      <div className="d-flex gap-3 align-items-center mt-3" key={index}>
                         <span className={Styles.colorName}>
                           {item.colorName}
                         </span>{" "}
@@ -296,7 +304,7 @@ const Models = () => {
                 ))}
               </div>
 
-              <div className={`${Styles.paintSection} mt-4`}>
+              <div className={`${Styles.paintSection} my-4`} key={modelInfo.name}>
                 <h1 className="m-0">Order Your {data.models[0].name}</h1>
                 <span className={Styles.colorName}>
                   Est. Delivery: Apr – May 2024

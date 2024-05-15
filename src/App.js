@@ -11,7 +11,7 @@ function App() {
   return (
     <DataProvider>
       <div className="App">
-        <Routes>
+        <Routes> 
           <Route
             path="/"
             element={
