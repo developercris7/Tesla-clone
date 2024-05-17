@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect,useState } from "react";
 import data from "../Assets/db.json";
 import { useParams } from "react-router-dom";
 import Styles from "../Assets/css/modelview.module.css";
@@ -8,7 +8,9 @@ import { motion } from 'framer-motion';
 
 const Models = () => {
   const { model } = useParams();
-
+  const [paintColor, setPaintColor] = useState("blue");
+  const [wheelDesign, setWheelDesign] = useState("wheel1");
+  const [interiorColor, setInteriorColor] = useState("white");
   const {
     modelInfo,
     setModelInfo,
@@ -20,12 +22,6 @@ const Models = () => {
     setInteriorImage,
     urlImage,
     setUrlImage,
-    paintColor,
-    setPaintColor,
-    wheelDesign,
-    setWheelDesign,
-    interiorColor,
-    setInteriorColor,
     options,
     optionTab,
     optionBodyActive,
